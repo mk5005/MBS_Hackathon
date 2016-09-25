@@ -57,7 +57,7 @@ createMap<-function(distance.df, routePlus.df, vet.df){
   }
   for (i in c(1:length(distance.df[[1]]))) {
     routeRaw<-distance.df$path[i]
-    print(routeRaw)
+    #print(routeRaw)
     route.df<-fread(routeRaw, sep=",", header=FALSE, col.names=c("lon", "lat"))
     route<-Line(route.df)
     

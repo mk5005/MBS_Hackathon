@@ -31,7 +31,7 @@ shinyServer(function(input, output, session) {
         }
         
     })
-    observe({ print(start.long()) })
+    #observe({ print(start.long()) })
     end.lat <- reactive({
         if (input$finish.where.start.check) {
             input$lat

@@ -11,7 +11,7 @@ load("distances.df.RData")
 load("heritage_short_final.Rda")
 load("veturilo_final.RData")
 
-options(shiny.error = browser)
+#options(shiny.error = browser)
 
 heritage.short.df$inny <- FALSE   
 for (row in 1:nrow(heritage.short.df)) {

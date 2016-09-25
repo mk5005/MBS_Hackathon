@@ -1,6 +1,6 @@
 shinyUI(
     dashboardPage(
-        dashboardHeader(title = 'Warszawa nieznana'),
+        dashboardHeader(title = 'StaraWawa'),
         
         
         dashboardSidebar(
